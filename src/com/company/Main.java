@@ -14,6 +14,5 @@ public class Main {
         System.out.println(new Medic().superAbility("medic"));
         System.out.println(new Warrior().superAbility("critical damage"));
         System.out.println(new Medic().increaseExperience());
-
     }
 }
