@@ -6,6 +6,7 @@ public class Medic extends Hero{
     public String superAbility(String superAbility) {
         return "Medic superAbility " + superAbility;
     }
+
     public String increaseExperience(){
         return superAbility(healPoints + "%");
     }
